@@ -565,5 +565,7 @@ html {
         flex-wrap: wrap;
         flex-direction: column;
     }
-
+    .project__read-more {
+        display: none;
+    }
 }
