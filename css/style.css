@@ -534,10 +534,19 @@ html {
         font-size: 0.7rem;
     }
     /* section-projects */
+    .projects__list {
+        display: flex;
+        flex-wrap: wrap;
+    }
     .project__read-more {
         margin-top: 50%;
         height: 10%;
         width: 60%;
+    }
+     /* wedo */
+    .container__wedo__items {
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 @media (max-width: 576px) {
